@@ -33,6 +33,17 @@ let myObj = {
  let myFunc = function(){
 console.log("hello world");
 }
-console.log(typeof myFunc);
+console.log(typeof myFunc); //  object function
+console.log(typeof id); // symbol
+console.log(typeof scoreValue ); // number 
+console.log(typeof score); // number 
+console.log(typeof anotherId); //symbol
+console.log(typeof isLoggedIn); // boolean 
+console.log(typeof myObj); // object 
+console.log(typeof heros); // object
+
+console.log(typeof null); // object 
+console.log(typeof undefined); //  undefined
+
 
 
