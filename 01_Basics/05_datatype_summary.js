@@ -46,4 +46,14 @@ console.log(typeof null); // object
 console.log(typeof undefined); //  undefined
 
 
-
+// output
+// function
+// symbol
+// number
+// number
+// symbol
+// boolean
+// object
+// object
+// object
+// undefined
