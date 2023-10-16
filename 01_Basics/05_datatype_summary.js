@@ -31,19 +31,19 @@ let myObj = {
 
 // Function 
  let myFunc = function(){
-console.log("hello world");
+// console.log("hello world");
 }
-console.log(typeof myFunc); //  object function
-console.log(typeof id); // symbol
-console.log(typeof scoreValue ); // number 
-console.log(typeof score); // number 
-console.log(typeof anotherId); //symbol
-console.log(typeof isLoggedIn); // boolean 
-console.log(typeof myObj); // object 
-console.log(typeof heros); // object
+// console.log(typeof myFunc); //  object function
+// console.log(typeof id); // symbol
+// console.log(typeof scoreValue ); // number 
+// console.log(typeof score); // number 
+// console.log(typeof anotherId); //symbol
+// console.log(typeof isLoggedIn); // boolean 
+// console.log(typeof myObj); // object 
+// console.log(typeof heros); // object
 
-console.log(typeof null); // object 
-console.log(typeof undefined); //  undefined
+// console.log(typeof null); // object 
+// console.log(typeof undefined); //  undefined
 
 
 // output
@@ -57,3 +57,23 @@ console.log(typeof undefined); //  undefined
 // object
 // object
 // undefined
+// *************************************************************************************************
+
+//  stack Memory( primitive):- call by value   got a copy of value it didnt chnge the original value.
+//  Heap (Non-primitive):- call by reference got the original value the change done in this is in original value.
+
+let myname = " sakshi "
+let anothername = myname
+anothername = " sakshi pal"
+
+console.log(myname);
+console.log(anothername);
+
+let userOne ={
+    emailId : "saksipal@google.com",
+    password :" 1234"
+}
+let userTwo = userOne 
+userTwo.emailId = "sp@gmal.com"
+console.log(userOne.emailId);
+console.log(userTwo.emailId);
