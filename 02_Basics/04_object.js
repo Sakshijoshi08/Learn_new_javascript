@@ -64,11 +64,28 @@ const user = [
 
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // data type of o/p value is array
-console.log(Object.values(tinderUser))
-console.log(Object.keys(tinderUser).length)
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser)); // data type of o/p value is array
+// console.log(Object.values(tinderUser))
+// console.log(Object.keys(tinderUser).length)
+// console.log(Object.entries(tinderUser))
 
 // hasOwnProperty('') in this we can ask that this element is present  or not  it gives boolean value 
 
-console.log(tinderUser.hasOwnProperty('isloggedIn'))
+// console.log(tinderUser.hasOwnProperty('isloggedIn'))
+
+const course = {
+    name : "js in hindi",
+    price : 999,
+    courseInstructor : "sakshi" 
+}
+// console.log(course.courseInstructor) // old syntex 
+
+//   distructuring of objects
+
+// const {courseInstructor} = course // new syntex
+// console.log(courseInstructor);
+
+ const{courseInstructor : instructor} = course
+ console.log(instructor);
+
+ 
