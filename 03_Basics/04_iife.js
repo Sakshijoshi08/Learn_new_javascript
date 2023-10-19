@@ -34,3 +34,18 @@
 ( (name) => {
     console.log(`DB Connected two ${name}`);
 } )('sakshi');
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// JavaScript Exection Context
+// 1) Global Execution AudioContext. 
+// 2) Function Execution AudioContext.
+// 3) eval Execution AudioContext. 
+
+// 1st phase: Memory Creation Phase
+// 2nd Execution Phase
+
+
+// call stack : it  works on fifo
