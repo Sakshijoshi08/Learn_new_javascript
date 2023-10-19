@@ -48,4 +48,21 @@
 // 2nd Execution Phase
 
 
+
 // call stack : it  works on fifo
+// example code evaluate using break point
+// function one(){
+//     console.log("one")
+//     two()
+// }
+// function two(){
+//     console.log("two")
+//     three()
+// }
+// function three(){
+//     console.log("three")
+
+// }
+// one()
+// two()
+// three()
