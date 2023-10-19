@@ -74,7 +74,7 @@ function loginUserMassage1(username = "spal"){
 function calculateCartPrice(num1){
     return num1
 }
-console.log(calculateCartPrice(200,400,500)) // it takes only 1st value for solving this problem rest Operator is used  
+// console.log(calculateCartPrice(200,400,500)) // it takes only 1st value for solving this problem rest Operator is used  
  // or
 
  // Rest Operator
@@ -82,12 +82,12 @@ console.log(calculateCartPrice(200,400,500)) // it takes only 1st value for solv
  function calculateCartPrice1(...num1){
     return num1
 }
-console.log(calculateCartPrice1(200,400,500))
+// console.log(calculateCartPrice1(200,400,500))
 
 function calculateCartPrice2(val1,val2, ...num1){
     return num1
 }
-console.log(calculateCartPrice2(200,400,500,2000))
+// console.log(calculateCartPrice2(200,400,500,2000))
 
 
 // How to pass object in the function and uses 
@@ -98,7 +98,7 @@ console.log(calculateCartPrice2(200,400,500,2000))
 
 // }   
  function handleObject(anyobject){
-    console.log(`The username is ${anyobject.username} and price is ${anyobject.price}.`);
+    // console.log(`The username is ${anyobject.username} and price is ${anyobject.price}.`);
  }
 //  handleObject(user)
 
@@ -115,8 +115,8 @@ const myArray = [100,200,300]
 function returnSecondvalue(getArray){
     return getArray[2]
 }
-console.log(returnSecondvalue(myArray));
-console.log(returnSecondvalue(myArray));
+// console.log(returnSecondvalue(myArray));
+console.log(returnSecondvalue([200,400,500,600]));
 
 
 
