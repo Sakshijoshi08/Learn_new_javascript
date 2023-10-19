@@ -71,4 +71,4 @@ const user = {
 
 //  
 // const myArray = [2,3,4,5]
-// myArray.forEach(()=> {})
+// myArray.forEach(()=> {}) 
