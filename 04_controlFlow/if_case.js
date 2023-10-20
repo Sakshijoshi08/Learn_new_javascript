@@ -23,6 +23,10 @@ if(score > 100 ){
 
 // short hand notation (inplecite scope : u should write in single line for multiple line, have to use ;)
 
+// const balance = 1000
+//  if( balance >500) console.log("test"),console.log("test1"); // useni krna chahiye , laga ke next console.log
+
+
 const balance = 1000
 //  if( balance >500) console.log("test");
 
