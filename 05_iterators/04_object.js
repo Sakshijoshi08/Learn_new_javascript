@@ -37,5 +37,9 @@ map.set('USA', "America")
 map.set('Fr',"France")
 
 for (const key in map){
-    console.log(key);
+    // console.log(key);
+}
+const map1 = [1,2,3,4,5,3,5]
+for (const key in map1){
+    console.log(map1[key]);
 }
